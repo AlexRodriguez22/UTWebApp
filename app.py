@@ -7,12 +7,12 @@ from flask_admin.menu import MenuLink
 from flask_login import UserMixin, login_user, current_user, LoginManager, logout_user, login_required
 from werkzeug.security import generate_password_hash, check_password_hash
 
-
-from twilio.rest import Client
+# twilio not recognized as python module, fix path 
+#from twilio.rest import Client
 
 # Your Twilio API credentials
-TWILIO_ACCOUNT_SID = "ACdfef27e279ecec44cea806b8ab0f1409"
-TWILIO_AUTH_TOKEN = "d129228ed65685bc62628e2d5ca23757"
+TWILIO_ACCOUNT_SID = " "
+TWILIO_AUTH_TOKEN = " "
 TWILIO_PHONE_NUMBER = "+18885232483"
 
 app = Flask(__name__)
