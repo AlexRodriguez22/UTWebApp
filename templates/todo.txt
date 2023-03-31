@@ -1,0 +1,20 @@
+- finish emergency notification
+- logic for reserve button
+
+- forgot password
+- final decision on calendly implementation
+
+
+- complete admin view
+- complete worker
+
+- add new pictures to machines
+
+- import db of school email addresses
+
+- further security issues
+
+- limit session time
+
+https://www.youtube.com/watch?v=W4GItcW7W-U 27:49 if we are checking a password twice
+category alerts same video at 48:49
