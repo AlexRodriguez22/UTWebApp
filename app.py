@@ -256,7 +256,6 @@ def emergency():
 
 # pop user from session
 # flash a messaged saying you have successfully logged out
-# not completed
 @app.route('/logout')
 @login_required
 def logout():
